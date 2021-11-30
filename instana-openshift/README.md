@@ -171,4 +171,4 @@ Por fim, isso é o que este code pattern aborda sobre como analisar o tráfego d
 
 # Licença
 
-Este code pattern tem a Licença Apache, Versão 2. Objetos de código de terceiros, invocados dentro deste code pattern, são licenciados pelos seus respectivos provedores, nos termos de suas próprias licenças. E as contribuições estão sujeitas ao [Developer Certificate of Origin, Versão 1.1](https://developercertificate.org/) e ao [Apache License, Versão 2](https://www.apache.org/licenses/LICENSE-2.0.txt). Porém, caso tenha alguma dúvida, consulte o [Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN).
+Este code pattern tem a Licença Apache, Versão 2. Objetos de código de terceiros, invocados dentro deste code pattern, são licenciados pelos seus respectivos provedores, nos termos de suas próprias licenças. As contribuições estão sujeitas ao [Developer Certificate of Origin, Versão 1.1](https://developercertificate.org/) e ao [Apache License, Versão 2](https://www.apache.org/licenses/LICENSE-2.0.txt). Porém, caso tenha alguma dúvida, consulte o [Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN).
