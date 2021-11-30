@@ -4,7 +4,7 @@ https://developer.ibm.com/patterns/integrating-instana-with-microservice-app-on-
 
 Neste code pattern, vamos integrar o [Instana](https://www.instana.com/) com uma aplicação de microsserviço de viagem no OpenShift. Instana é uma solução automatizada de Observação Enterprise, com monitoramento de infraestrutura e Gerenciamento de Performance da Aplicação - Application Performance Management (APM), desenhada especificamente para os desafios de gerenciamento de microsserviços e aplicações cloud native.
 
-Geraremos tráfego para a aplicação usando o [Puppeteer](https://developers.google.com/web/tools/puppeteer/) e analisaremos o mesmo tráfego com o dashboard/painel de controle do Instana. A aplicação de viagem que será usada neste code pattern fará parte do projeto [Bee Travels](https://bee-travels.github.io/) que foca em algumas versões iniciais dos serviços da aplicação. Os serviços utilizados neste code pattern são:
+Geraremos tráfego para a aplicação usando o [Puppeteer](https://developers.google.com/web/tools/puppeteer/) e analisaremos o mesmo tráfego com o dashboard/painel de controle do Instana. A aplicação de viagem que será usada neste code pattern fará parte do projeto [Bee Travels](https://bee-travels.github.io/), que foca em algumas versões iniciais dos serviços da aplicação. Os serviços utilizados neste code pattern são:
 * Destination v1 (Node.js)
 * Car Rental v1 (Node.js)
 * Hotel v1 (Python)
