@@ -53,9 +53,9 @@ Uma vez que você tem acesso ao Instana, abra o painel de controle. Pressione  `
 
 ![](img/instana_addweb.png)
 
-Copie o script gerado e insira na tag `<head>` em [/src/services/ui/frontend/public/index.html](src/services/ui/frontend/public/index.html). Isso irá integrar o Instana ao front end (UI) da sua aplicação. Permitindo que você analise os carregamentos da página, do tráfego e outros detalhes.
+Copie o script gerado e insira a tag `<head>` em [/src/services/ui/frontend/public/index.html](src/services/ui/frontend/public/index.html). Isso irá integrar o Instana ao front end (UI) da sua aplicação. Permitindo que você analise os carregamentos da página, do tráfego e outros detalhes.
 
-O Instana já é integrado ao serviço. Porém, para aprender como incorporá-lo nas aplicações [Node.js](https://www.instana.com/docs/ecosystem/node-js/configuration/) e [Python](https://www.instana.com/docs/ecosystem/python/configuration/), também em [outras tecnologias](https://www.instana.com/docs/ecosystem/). mais detalhes são oferecidos nas documentações hiperlinkadas.
+O Instana já é integrado ao serviço. Porém, para aprender como incorporá-lo nas aplicações [Node.js](https://www.instana.com/docs/ecosystem/node-js/configuration/) e [Python](https://www.instana.com/docs/ecosystem/python/configuration/), também em [outras tecnologias](https://www.instana.com/docs/ecosystem/), mais detalhes são oferecidos nas documentações hiperlinkadas.
 
 Ter o Instana, em serviços backend, permite analisar traços distribuídos, telemetria e outras informações sobre chamadas diretas. Além disso, você pode examinar chamadas individuais e rastreá-las para mostrar como os serviços se comunicam um com o outro. Você ainda pode visualizar como o Instana é integrado em cada serviço Bee Travels abaixo:
 
@@ -86,14 +86,14 @@ Depois, selecione `OpenShift` na plataforma e `Operator` como tecnologia. També
 ## 4. Implementar no OpenShift
 
 1. Provisione um [Cluster OpenShift](https://cloud.ibm.com/kubernetes/catalog/create?platformType=openshift).
-> NOTA: Esse passo pode levar aproximadamente 30 minutos.
+> NOTA: Este passo pode levar aproximadamente 30 minutos.
 
-2. AAbra o console OpenShift. Copie e cole o seu login comando (`oc login...`) em uma janela do terminal.
+2. Abra o console OpenShift. Copie e cole o seu login comando (`oc login...`) em uma janela do terminal.
 
 ![](img/openshift_login.png)
 
 3. Em uma janela do terminal, rode o script `build-and-deploy.sh` para realizar o build da aplicação Bee Travels e implementá-la no seu cluster OpenShift.
-> NOTA: Esse passo pode levar alguns minutos.
+> NOTA: Este passo pode levar alguns minutos.
 
 ```
 cd instana-openshift
@@ -104,7 +104,7 @@ Uma vez finalizado o script, você pode verificar os serviços da aplicação ro
 
 ![](img/openshift_pods.png)
 
-4. Agora que os serviços da sua aplicação estão implementados no seu cluster OpenShift, exponha a UI usando a rota. Do seu console OpenShift, vá até `Networking` -> `Routes` e pressione o botão `Create Route`.
+4. Agora que os serviços da sua aplicação estão implementados no seu cluster OpenShift, exponha a UI usando a rota. No seu console OpenShift, vá até `Networking` -> `Routes` e pressione o botão `Create Route`.
 
 ![](img/openshift_route.png)
 
@@ -114,7 +114,7 @@ Após, preencha os campos da rota conforme a imagem a seguir — e então crie a
 
 ATENÇÃO: Lembre-se de que a localização/url, da nova rota criada, será usada posteriormente.
 
-5. O passo final do cluster OpenShift é instalar o Instana Agent Operator, através do OperatorHub. Por isso, primeiramente, crie o projeto para o agente Instana e configure as permissões. Do seu terminal rode, os seguintes comandos:
+5. O passo final do cluster OpenShift é instalar o Instana Agent Operator, através do OperatorHub. Por isso, primeiramente, crie o projeto para o agente Instana e configure as permissões. No seu terminal rode, os seguintes comandos:
 
 ```
 oc new-project instana-agent
@@ -155,15 +155,15 @@ Agora, visualizando o tráfego, pressione `Analyze Page Loads` para, com isso, o
 
 ![](img/instana_websitedashboard.png)
 
-Adiante, você poderá visualizar as chamadas feitas pelo UI front end. Portanto, selecione uma delas, coloque no caminho, para analisar o percurso de uma chamada individual.
+Adiante, você poderá visualizar as chamadas feitas pelo UI front end. Portanto, selecione uma, coloque no caminho, para analisar o percurso individualmente.
 
 ![](img/instana_pageloads.png)
 
-Visualizando a chamada, desça a página e verifique a atividade de XHR. Você notará que, algumas requisições, possuem o botão  `View Backend Trace`. Assim, clicando no botão, aparecerá uma requisição para rastrear o backend do serviço Bee Travels, que será chamado pela API do UI front end.
+Visualizando a chamada, desça a página e verifique a atividade de XHR. Você notará que algumas requisições possuem o botão  `View Backend Trace`. Assim, clicando no botão, aparecerá uma requisição para rastrear o backend do serviço Bee Travels, que será chamado pela API do UI front end.
 
 ![](img/instana_xhr.png)
 
-Enquanto visualizar o rastreio, você poderá clicar no serviço `Service Endpoint List` para analisar o serviço do backend no Instana.
+Enquanto visualizar o rastreio, você pode clicar no serviço `Service Endpoint List`, para analisar o serviço do backend no Instana.
 
 ![](img/instana_trace.png)
 
@@ -171,4 +171,4 @@ Por fim, isso é o que este code pattern aborda sobre como analisar o tráfego d
 
 # Licença
 
-Este code pattern tem a Licença Apache, Versão 2. Objetos de código de terceiros, invocados dentro deste code pattern, são licenciados pelos seus respectivos provedores, nos termos de suas próprias licenças. E as contribuições estão sujeitas ao [Developer Certificate of Origin, Versão 1.1](https://developercertificate.org/) e ao [Apache License, Versão 2](https://www.apache.org/licenses/LICENSE-2.0.txt). E caso tenha alguma dúvida, consulte o [Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN).
+Este code pattern tem a Licença Apache, Versão 2. Objetos de código de terceiros, invocados dentro deste code pattern, são licenciados pelos seus respectivos provedores, nos termos de suas próprias licenças. E as contribuições estão sujeitas ao [Developer Certificate of Origin, Versão 1.1](https://developercertificate.org/) e ao [Apache License, Versão 2](https://www.apache.org/licenses/LICENSE-2.0.txt). Porém, caso tenha alguma dúvida, consulte o [Apache License FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN).
