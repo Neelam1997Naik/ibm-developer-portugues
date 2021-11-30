@@ -39,7 +39,6 @@ Além disso, existem testes de unidade que aferem todos os novos comportamentos 
 
 Existe documentação? (Veja as diretrizes para a documentação). Caso contrário, não realize o merge da feature, até ela estar pronta.
 
-A feature é necessária para casos de uso gerais? Teste e mantenha o
-o escopo de qualquer componente limitado. Se um recurso proposto não se encaixa nesse objetivo, recomende ao usuário que ele mantenha a feature por conta própria — e feche o request.
+A feature é necessária para casos de usos gerais? Teste e mantenha o escopo de qualquer componente limitado. Se um recurso proposto não se encaixa nesse objetivo, recomende ao usuário que ele mantenha a feature por conta própria — e feche o request.
 
 Você também pode recomendar que a feature ganhe interesse entre os outros usuários, a partir da sugestão do envio do apoio/suporte.
