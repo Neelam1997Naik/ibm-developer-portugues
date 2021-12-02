@@ -27,7 +27,7 @@ Geraremos tráfego para a aplicação usando o [Puppeteer](https://developers.go
   - [2. Faça um fork do repositório](#2-faça-um-fork-do-repositório)
   - [3. Integre o Instana](#3-integre-o-instana)
   - [4. Implementar no OpenShift](#4-implementar-no-openshift)
-  - [5. Gere Tráfego e Analise com Instana](#5-gere-tráfego-e-analise-com-instana)
+  - [5. Gere Tráfego e Analise com Instana](#5-gere-tráfego-e-Análise-com-Instana)
 - [Licença](#licença)
 
 ## 1. Pré-Requisitos
