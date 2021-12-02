@@ -21,7 +21,7 @@ Geraremos tráfego para a aplicação usando o [Puppeteer](https://developers.go
 # Passos
 
 - [Integre o Instana com uma Aplicação Microsserviço no OpenShift](#integre-o-instana-com-uma-aplicação-microsserviço-no-openshift)
-- [arquitetura](#arquitetura)
+- [Arquitetura](#arquitetura)
 - [Passos](#passos)
   - [1. Pré-Requisitos](#1-pré-requisitos)
   - [2. Faça um fork do repositório](#2-faça-um-fork-do-repositório)
