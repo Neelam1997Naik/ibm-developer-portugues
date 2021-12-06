@@ -15,7 +15,7 @@ Neste webinar exclusivo, discutimos as principais diferenças entre o monitorame
 * [Fernando Sanches](https://www.linkedin.com/in/fesanches/) – Senior Technical Sales Engineer @ Instana.
 
 ## Leituras Recomendadas
-* [Code Pattern: Monitore a performance de sua aplicação de microsserviços]()
+* [Code Pattern: Monitore a performance de sua aplicação de microsserviços](https://developer.ibm.com/br/patterns/integrating-instana-with-microservice-app-on-openshift/)
 * [O que os desenvolvedores devem saber sobre Observabilidade (EN)](http://%20https//drive.google.com/file/d/1vIKUriKKzsIq25kVKs-b-IhRTdEFDhPR/view)
 * [Observabilidade IBM por Instana](https://www.ibm.com/br-pt/cloud/instana)
 * [Experimente a Instana](https://www.instana.com/apm-observability-sandbox/)
@@ -41,7 +41,7 @@ Replay da sessão: <https://www.crowdcast.io/e/ibm--turbonomic-2>
 
 ## Leituras Recomendadas
 * [Digital Developer Conference - AIops & Integration](https://developer.ibm.com/conferences/digital-developer-conference-ai-automation-integration/)
-* [Melhorando a performance e eficiência em suas implementações Red Hat Openshift TBD](colocar)
+* [Melhorando a performance e eficiência em suas implementações Red Hat Openshift TBD](https://developer.ibm.com/br/tutorials/improve-performance-efficiency-openshift-deployments-turbonomic-instana/)
 * [Turbonomic Application Resource Management para IBM Cloud Paks](https://www.ibm.com/br-pt/cloud/turbonomic)
 
 ## Recursos
