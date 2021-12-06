@@ -41,7 +41,7 @@ Replay da sessão: <https://www.crowdcast.io/e/ibm--turbonomic-2>
 
 ## Leituras Recomendadas
 * [Digital Developer Conference - AIops & Integration](https://developer.ibm.com/conferences/digital-developer-conference-ai-automation-integration/)
-* [Melhorando a performance e eficiência em suas implementações Red Hat Openshift TBD](https://developer.ibm.com/br/tutorials/improve-performance-efficiency-openshift-deployments-turbonomic-instana/)
+* [Melhorando a performance e eficiência em suas implementações Red Hat Openshift](https://developer.ibm.com/br/tutorials/improve-performance-efficiency-openshift-deployments-turbonomic-instana/)
 * [Turbonomic Application Resource Management para IBM Cloud Paks](https://www.ibm.com/br-pt/cloud/turbonomic)
 
 ## Recursos
